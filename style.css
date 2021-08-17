@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    margin:0;
+    background: #ffbb00;
+}
+.tipContainer{
+    width:80vw;
+    height: 60vh;
+    border:0.1px solid;
+    border-radius: 12px;
+
+    background: #f0efed;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    position: absolute;
+    left:10%;
+    top:10%;
+
+    font-family: 'Lobster', cursive;
+    font-size: larger;
+}
+
+#tipBox{
+    width:50%;
+    height:10%;
+    border:0.1px solid;
+
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+
+    background-color: white;
+    
+}
+.tipAnimation{
+    animation: visibility 3s ease;
+}
+@keyframes visibility{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
